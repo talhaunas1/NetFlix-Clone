@@ -30,6 +30,7 @@ function Row({ title, fetchUrl }) {
 
       {movies.map((movie) => (
         <img
+        key={movie.id}
           className="rowposter"
           src={`${base_url}${movie.poster_path}`}
           alt={movie.name}
