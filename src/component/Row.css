@@ -1,3 +1,7 @@
+.row{
+    margin-left: 20px;
+}
+
 .row_posters{
      display: flex; /* turn all posters in a row */
     overflow-y: hidden;
