@@ -4,8 +4,8 @@ import Row from './component/Row';
 import requests from './request';
 function App() {
   return (
-    <div className="App">
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} />
+    <div>
+      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}  isLargeRow/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}  />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
