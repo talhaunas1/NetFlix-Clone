@@ -20,7 +20,7 @@ function Row({ title, fetchUrl,isLargeRow }) {
   }, [fetchUrl]);
   //the page loads on fetchUrl
 
-  console.log("movies", movies);
+  // console.log("movies", movies);
 
   return (
     <div className="row">
