@@ -22,7 +22,7 @@ function Banner() {
   console.log( "movies" ,movie);
 
   function truncate(str,n){
-    return str?.length > n ? str.substr(0,n-1)+ "..." : str;
+    return str?.length > n ? str.substr(0,n-1)+ "..." : str; //for ... dots for over text in description
   }
 
   return (
@@ -48,6 +48,7 @@ function Banner() {
         {/* {div(button) } */}
         {/* {discripition} */}
       </div>
+      <div className="fade_bottom"/>
     </header>
   );
 }
