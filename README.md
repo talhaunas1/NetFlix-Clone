@@ -15,6 +15,8 @@ Run command npm start to start the application in development mode.
 
 ### `ScreenShort`
 
-![Uploading bakground.png…]()
+
+
+![bakground](https://user-images.githubusercontent.com/94473513/182081753-d8da5918-7d0f-4f86-911a-abedb172e6b8.png)
 
 
